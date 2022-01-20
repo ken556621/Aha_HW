@@ -1,11 +1,11 @@
 import CustomButton from "@/components/CustomButton";
-import CustomInput from "@/components/CustomInput";
+import CustomSlider from "@/components/CustomSlider";
 import Head from "next/head";
 
 const Home = () => {
   return (
     <div>
-      <CustomInput />
+      <CustomSlider />
     </div>
   )
 };

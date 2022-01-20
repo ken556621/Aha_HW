@@ -12,8 +12,7 @@ const useStyles = makeStyles({
   },
   outlinedInputfocused: {
     "& input": {
-        border: "3px solid #FF9B33",
-        borderRadius: 6
+        border: "3px solid #FF9B33"
     }
   }
 });
@@ -34,6 +33,7 @@ const CustomInput = ({
             root: classes.outlinedInputRoot,
             focused: classes.outlinedInputfocused
           }}
+          value={inputValue}
           onChange={(event) => handleChange(event.target.value)}
           placeholder={placeHolder} />
     )
