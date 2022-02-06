@@ -1,3 +1,5 @@
+import "@/styles/global.css";
+
 import { ThemeProvider } from "@mui/material/styles";
 import theme from "@/styles/theme";
 

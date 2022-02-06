@@ -4,8 +4,9 @@ import { makeStyles } from "@material-ui/styles";
 
 const useStyles = makeStyles({
   btnRoot: {
-    width: props => props.size === "small" ? 60 : 335,
+    width: "100%",
     padding: props => props.size === "small" ? "8px 10px" : 0,
+    minHeight: 40,
     boxShadow: "none",
     fontSize: 12,
     fontWeight: 600,

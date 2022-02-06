@@ -4,6 +4,7 @@ import { useState } from "react";
 
 const useStyles = makeStyles({
   outlinedInputRoot: {
+    color: "#fff",
     "& input": {
         border: "3px solid rgba(255, 255, 255, 0.5)",
         borderRadius: 6,
